@@ -75,6 +75,7 @@ const Edit = () => {
               required
               value={taskName}
               placeholder="Implement RTK Query"
+              onChange={(e) => setTaskName(e.target.value)}
             />
           </div>
 
@@ -119,6 +120,7 @@ const Edit = () => {
               id="lws-deadline"
               value={deadline}
               required
+              onChange={(e) => setDeadline(e.target.value)}
             />
           </div>
 
