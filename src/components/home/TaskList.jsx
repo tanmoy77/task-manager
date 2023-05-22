@@ -9,7 +9,7 @@ const TaskList = () => {
   const { search, tagSelected } = useSelector((state) => state.filter);
 
   const searchFilter = (task) => {
-    return task.taskName.toLowerCase().includes(search);
+    return task.taskName.toLowerCase().includes(search.toLowerCase());
   };
 
   const tagFilter = (task) => {

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo.svg";
 import Search from "./Search";
 
 const Navbar = () => {
@@ -8,7 +7,8 @@ const Navbar = () => {
     <nav className="container relative py-3">
       <div className="flex items-center justify-between">
         <Link to="/">
-          <img alt="logo" src={logo} />
+          {/* <img alt="logo" src={logo} /> */}
+          <h2 className="logo">Task Manager</h2>
         </Link>
         <Search />
       </div>
