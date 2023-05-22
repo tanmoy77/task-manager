@@ -6,6 +6,7 @@ A simple task manager site where user can distribute tasks to different team mem
 
 ## Features
 
+- All the data are fetched from api using rtk-query
 - Add Task
 - Assign a task to a team member
 - keep track of the status of task - pending/in progress/completed
@@ -44,3 +45,4 @@ Start the server
 ```
 
 ## Screenshots
+![ss-task-home](https://github.com/tanmoy77/task-manager/assets/84202808/4712c28d-7915-4818-8342-9712d39bd7da)
